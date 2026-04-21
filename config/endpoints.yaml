@@ -1,0 +1,13 @@
+endpoints:
+  - name: "Order Service"
+    url: "https://jsonplaceholder.typicode.com/posts/1"
+    method: GET
+    expected_status: 200
+    sla_ms: 500
+    tags: [orders, critical]
+  - name: "Shipment Tracking API"
+    url: "https://jsonplaceholder.typicode.com/posts/2"
+    method: GET
+    expected_status: 200
+    sla_ms: 600
+    tags: [shipments, critical]
