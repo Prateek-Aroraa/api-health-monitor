@@ -7,6 +7,8 @@ A production-grade Python CLI that polls REST API endpoints in parallel, measure
 
 > Built from **5 years of production experience** managing 40+ courier API integrations at Shiprocket.
 
+![API Health Monitor Demo](demo.png)
+
 ## Quick Start
 ```bash
 git clone https://github.com/Prateek-Aroraa/api-health-monitor.git
